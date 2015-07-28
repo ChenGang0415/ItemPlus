@@ -10,6 +10,10 @@
             <id>dead-war-repo</id>
             <url>http://ci.dead-war.gq:8081/content/groups/public/</url>
         </repository>
+        <repository>
+            <id>dj-tcraft repository</id>
+            <url>http://ci.dj-tcraft.nl/plugin/repository/everything/</url>
+        </repository>
     </repositories>
     <dependencies>
         <dependency>
@@ -31,6 +35,12 @@
             <groupId>com.comphenix.protocol</groupId>
             <artifactId>ProtocolLib</artifactId>
             <version>3.4.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.bergerkiller.bukkit</groupId>
+            <artifactId>BKCommonLib</artifactId>
+            <version>1.54-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
     <properties>
